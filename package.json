@@ -1,0 +1,27 @@
+{
+  "name": "mongo_node_qrcode",
+  "version": "1.0.0",
+  "description": "generate qrcode and store it on mongodb",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glotec/mongo_node_qrcode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glotec/mongo_node_qrcode/issues"
+  },
+  "homepage": "https://github.com/glotec/mongo_node_qrcode#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.8",
+    "qrcode": "^1.4.4"
+  }
+}
